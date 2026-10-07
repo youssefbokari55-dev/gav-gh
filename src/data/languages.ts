@@ -1,0 +1,91 @@
+import { Language } from '../types/translator';
+
+export const LANGUAGES: Language[] = [
+  { code: 'ar', name: 'العربية', englishName: 'Arabic', nativeName: 'العربية', flag: '🇸🇦', dir: 'rtl', speechCode: 'ar-SA', popular: true },
+  { code: 'en', name: 'الإنجليزية', englishName: 'English', nativeName: 'English', flag: '🇬🇧', dir: 'ltr', speechCode: 'en-US', popular: true },
+  { code: 'fr', name: 'الفرنسية', englishName: 'French', nativeName: 'Français', flag: '🇫🇷', dir: 'ltr', speechCode: 'fr-FR', popular: true },
+  { code: 'es', name: 'الإسبانية', englishName: 'Spanish', nativeName: 'Español', flag: '🇪🇸', dir: 'ltr', speechCode: 'es-ES', popular: true },
+  { code: 'de', name: 'الألمانية', englishName: 'German', nativeName: 'Deutsch', flag: '🇩🇪', dir: 'ltr', speechCode: 'de-DE', popular: true },
+  { code: 'tr', name: 'التركية', englishName: 'Turkish', nativeName: 'Türkçe', flag: '🇹🇷', dir: 'ltr', speechCode: 'tr-TR', popular: true },
+  { code: 'it', name: 'الإيطالية', englishName: 'Italian', nativeName: 'Italiano', flag: '🇮🇹', dir: 'ltr', speechCode: 'it-IT', popular: true },
+  { code: 'ru', name: 'الروسية', englishName: 'Russian', nativeName: 'Русский', flag: '🇷🇺', dir: 'ltr', speechCode: 'ru-RU', popular: true },
+  { code: 'ja', name: 'اليابانية', englishName: 'Japanese', nativeName: '日本語', flag: '🇯🇵', dir: 'ltr', speechCode: 'ja-JP', popular: true },
+  { code: 'ko', name: 'الكورية', englishName: 'Korean', nativeName: '한국어', flag: '🇰🇷', dir: 'ltr', speechCode: 'ko-KR', popular: true },
+  { code: 'zh', name: 'الصينية (المبسطة)', englishName: 'Chinese (Simplified)', nativeName: '简体中文', flag: '🇨🇳', dir: 'ltr', speechCode: 'zh-CN', popular: true },
+  { code: 'pt', name: 'البرتغالية', englishName: 'Portuguese', nativeName: 'Português', flag: '🇵🇹', dir: 'ltr', speechCode: 'pt-PT', popular: true },
+  { code: 'hi', name: 'الهندية', englishName: 'Hindi', nativeName: 'हिन्दी', flag: '🇮🇳', dir: 'ltr', speechCode: 'hi-IN', popular: true },
+  { code: 'ur', name: 'الأردية', englishName: 'Urdu', nativeName: 'اردو', flag: '🇵🇰', dir: 'rtl', speechCode: 'ur-PK', popular: true },
+  { code: 'fa', name: 'الفارسية', englishName: 'Persian', nativeName: 'فارسی', flag: '🇮🇷', dir: 'rtl', speechCode: 'fa-IR', popular: true },
+  { code: 'id', name: 'الإندونيسية', englishName: 'Indonesian', nativeName: 'Bahasa Indonesia', flag: '🇮🇩', dir: 'ltr', speechCode: 'id-ID', popular: true },
+  { code: 'ms', name: 'الملايو', englishName: 'Malay', nativeName: 'Bahasa Melayu', flag: '🇲🇾', dir: 'ltr', speechCode: 'ms-MY' },
+  { code: 'nl', name: 'الهولندية', englishName: 'Dutch', nativeName: 'Nederlands', flag: '🇳🇱', dir: 'ltr', speechCode: 'nl-NL' },
+  { code: 'sv', name: 'السويدية', englishName: 'Swedish', nativeName: 'Svenska', flag: '🇸🇪', dir: 'ltr', speechCode: 'sv-SE' },
+  { code: 'pl', name: 'البولندية', englishName: 'Polish', nativeName: 'Polski', flag: '🇵🇱', dir: 'ltr', speechCode: 'pl-PL' },
+  { code: 'el', name: 'اليونانية', englishName: 'Greek', nativeName: 'Ελληνικά', flag: '🇬🇷', dir: 'ltr', speechCode: 'el-GR' },
+  { code: 'he', name: 'العبرية', englishName: 'Hebrew', nativeName: 'עברית', flag: '🇮🇱', dir: 'rtl', speechCode: 'he-IL' },
+  { code: 'vi', name: 'الفيتنامية', englishName: 'Vietnamese', nativeName: 'Tiếng Việt', flag: '🇻🇳', dir: 'ltr', speechCode: 'vi-VN' },
+  { code: 'th', name: 'التايلاندية', englishName: 'Thai', nativeName: 'ไทย', flag: '🇹🇭', dir: 'ltr', speechCode: 'th-TH' },
+  { code: 'uk', name: 'الأوكرانية', englishName: 'Ukrainian', nativeName: 'Українська', flag: '🇺🇦', dir: 'ltr', speechCode: 'uk-UA' },
+  { code: 'cs', name: 'التشيكية', englishName: 'Czech', nativeName: 'Čeština', flag: '🇨🇿', dir: 'ltr', speechCode: 'cs-CZ' },
+  { code: 'ro', name: 'الرومانية', englishName: 'Romanian', nativeName: 'Română', flag: '🇷🇴', dir: 'ltr', speechCode: 'ro-RO' },
+  { code: 'hu', name: 'المجرية', englishName: 'Hungarian', nativeName: 'Magyar', flag: '🇭🇺', dir: 'ltr', speechCode: 'hu-HU' },
+  { code: 'da', name: 'الدانماركية', englishName: 'Danish', nativeName: 'Dansk', flag: '🇩🇰', dir: 'ltr', speechCode: 'da-DK' },
+  { code: 'fi', name: 'الفنلندية', englishName: 'Finnish', nativeName: 'Suomi', flag: '🇫🇮', dir: 'ltr', speechCode: 'fi-FI' },
+  { code: 'no', name: 'النرويجية', englishName: 'Norwegian', nativeName: 'Norsk', flag: '🇳🇴', dir: 'ltr', speechCode: 'nb-NO' },
+  { code: 'bn', name: 'البنغالية', englishName: 'Bengali', nativeName: 'বাংলা', flag: '🇧🇩', dir: 'ltr', speechCode: 'bn-BD' },
+  { code: 'tl', name: 'الفلبينية', englishName: 'Filipino / Tagalog', nativeName: 'Tagalog', flag: '🇵🇭', dir: 'ltr', speechCode: 'fil-PH' },
+  { code: 'sw', name: 'السواحيلية', englishName: 'Swahili', nativeName: 'Kiswahili', flag: '🇰🇪', dir: 'ltr', speechCode: 'sw-KE' },
+  { code: 'am', name: 'الأمهرية', englishName: 'Amharic', nativeName: 'አማርኛ', flag: '🇪🇹', dir: 'ltr', speechCode: 'am-ET' },
+  { code: 'az', name: 'الأذربيجانية', englishName: 'Azerbaijani', nativeName: 'Azərbaycan', flag: '🇦🇿', dir: 'ltr', speechCode: 'az-AZ' },
+  { code: 'uz', name: 'الأوزبكية', englishName: 'Uzbek', nativeName: 'Oʻzbekcha', flag: '🇺🇿', dir: 'ltr', speechCode: 'uz-UZ' },
+  { code: 'kk', name: 'الكازاخية', englishName: 'Kazakh', nativeName: 'Қазақша', flag: '🇰🇿', dir: 'ltr', speechCode: 'kk-KZ' },
+  { code: 'bg', name: 'البلغارية', englishName: 'Bulgarian', nativeName: 'Български', flag: '🇧🇬', dir: 'ltr', speechCode: 'bg-BG' },
+  { code: 'hr', name: 'الكرواتية', englishName: 'Croatian', nativeName: 'Hrvatski', flag: '🇭🇷', dir: 'ltr', speechCode: 'hr-HR' },
+  { code: 'sr', name: 'الصربية', englishName: 'Serbian', nativeName: 'Српски', flag: '🇷🇸', dir: 'ltr', speechCode: 'sr-RS' },
+  { code: 'sk', name: 'السلوفاكية', englishName: 'Slovak', nativeName: 'Slovenčina', flag: '🇸🇰', dir: 'ltr', speechCode: 'sk-SK' },
+  { code: 'ca', name: 'الكتالونية', englishName: 'Catalan', nativeName: 'Català', flag: '🇪🇸', dir: 'ltr', speechCode: 'ca-ES' },
+  { code: 'lt', name: 'الليتوانية', englishName: 'Lithuanian', nativeName: 'Lietuvių', flag: '🇱🇹', dir: 'ltr', speechCode: 'lt-LT' },
+  { code: 'lv', name: 'اللاتفية', englishName: 'Latvian', nativeName: 'Latviešu', flag: '🇱🇻', dir: 'ltr', speechCode: 'lv-LV' },
+  { code: 'et', name: 'الإستونية', englishName: 'Estonian', nativeName: 'Eesti', flag: '🇪🇪', dir: 'ltr', speechCode: 'et-EE' },
+  { code: 'sl', name: 'السلوفينية', englishName: 'Slovenian', nativeName: 'Slovenščina', flag: '🇸🇮', dir: 'ltr', speechCode: 'sl-SI' },
+  { code: 'is', name: 'الأيسلندية', englishName: 'Icelandic', nativeName: 'Íslenska', flag: '🇮🇸', dir: 'ltr', speechCode: 'is-IS' },
+  { code: 'ga', name: 'الأيرلندية', englishName: 'Irish', nativeName: 'Gaeilge', flag: '🇮🇪', dir: 'ltr', speechCode: 'ga-IE' },
+  { code: 'hy', name: 'الأرمينية', englishName: 'Armenian', nativeName: 'Հայերեն', flag: '🇦🇲', dir: 'ltr', speechCode: 'hy-AM' },
+  { code: 'ka', name: 'الجورجية', englishName: 'Georgian', nativeName: 'ქართული', flag: '🇬🇪', dir: 'ltr', speechCode: 'ka-GE' },
+  { code: 'mn', name: 'المنغولية', englishName: 'Mongolian', nativeName: 'Монгол', flag: '🇲🇳', dir: 'ltr', speechCode: 'mn-MN' },
+  { code: 'ku', name: 'الكردية', englishName: 'Kurdish', nativeName: 'Kurdî', flag: '🇮🇶', dir: 'rtl', speechCode: 'ku-TR' },
+  { code: 'so', name: 'الصومالية', englishName: 'Somali', nativeName: 'Soomaaliga', flag: '🇸🇴', dir: 'ltr', speechCode: 'so-SO' },
+  { code: 'ps', name: 'البشتو', englishName: 'Pashto', nativeName: 'پښتو', flag: '🇦🇫', dir: 'rtl', speechCode: 'ps-AF' },
+  { code: 'ne', name: 'النيبالية', englishName: 'Nepali', nativeName: 'नेपाली', flag: '🇳🇵', dir: 'ltr', speechCode: 'ne-NP' },
+  { code: 'si', name: 'السنهالية', englishName: 'Sinhala', nativeName: 'සිංහල', flag: '🇱🇰', dir: 'ltr', speechCode: 'si-LK' },
+  { code: 'my', name: 'البورمية', englishName: 'Burmese', nativeName: 'မြန်မာဘာသာ', flag: '🇲🇲', dir: 'ltr', speechCode: 'my-MM' },
+  { code: 'km', name: 'الخميرية', englishName: 'Khmer', nativeName: 'ខ្មែរ', flag: '🇰🇭', dir: 'ltr', speechCode: 'km-KH' },
+  { code: 'la', name: 'اللاتينية', englishName: 'Latin', nativeName: 'Latina', flag: '🏛️', dir: 'ltr', speechCode: 'la' },
+];
+
+export const AUTO_DETECT_LANGUAGE: Language = {
+  code: 'auto',
+  name: 'اكتشاف تلقائي',
+  englishName: 'Auto Detect',
+  nativeName: 'Auto Detect',
+  flag: '✨',
+  dir: 'ltr',
+  speechCode: '',
+};
+
+export const MULTI_LANG_TARGETS = [
+  'en', 'fr', 'es', 'de', 'tr', 'it', 'ru', 'ja', 'ko', 'zh', 'pt', 'hi', 'ur', 'id'
+];
+
+export function getLanguageByCode(code: string): Language {
+  if (code === 'auto') return AUTO_DETECT_LANGUAGE;
+  return LANGUAGES.find((lang) => lang.code === code) || {
+    code,
+    name: code,
+    englishName: code,
+    nativeName: code,
+    flag: '🌐',
+    dir: 'ltr',
+    speechCode: code,
+  };
+}

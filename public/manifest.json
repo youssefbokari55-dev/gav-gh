@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "مترجم الكلمات العالمي - Polyglot Word",
+  "short_name": "مترجم الكلمات",
+  "description": "تطبيق هاتف ذكي فائق السرعة لترجمة الكلمات لجميع لغات العالم مع النطق الصوتي والأمثلة",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities", "books"]
+}

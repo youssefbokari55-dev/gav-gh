@@ -1,0 +1,6 @@
+{
+  "name": "مترجم الكلمات العالمي - Polyglot Word",
+  "description": "تطبيق هاتف ذكي متقدم لترجمة الكلمات لجميع لغات العالم مع النطق الصوتي والأمثلة والمرادفات والبطاقات التعليمية",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
